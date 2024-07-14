@@ -20,6 +20,7 @@
   <div class="cont">
     <?php if(isset($_SESSION['full_name'])): ?>
       <button class="btn btn-light btn-lg" type="button" name="button"><a href="index.php?logout='1'" style="color:black;text-decoration: none;padding:1rem;">Logout</a></button>
+      <button id="formButton" class="btn btn-light btn-lg" type="button" name="button"><a href="chat.php#form1" style="color:black;text-decoration: none;">Update Info</a></button>
       <h1>Welcome <?php echo (string)$_SESSION['full_name'];?></h1>
     <?php endif ?>
 
