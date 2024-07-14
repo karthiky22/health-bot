@@ -1,0 +1,77 @@
+{
+  "id": "1ca22b4f-cd0c-4bca-b8d7-9e2e26e69888",
+  "name": "cold",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Nasal washing Take paracetamol anti cold tablet"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have cold suggest me",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d82ef588-3e47-4b57-8db4-8122bf2b4a2e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "i have cold",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab6fe812-3883-4dc3-86ca-b0d2148c78fd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "cold",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c5f8c181-7f7d-4feb-b9fa-d9623ddc4cc9",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
